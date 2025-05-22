@@ -1,11 +1,11 @@
-/* headder, h1, p, navbar, main, section, fotter, button img*/
+/* headder, h1, p, navbar, main, section, fotter, #cat-stuff, .cats-do,  button img*/
 /*
 light blue: #4CC9F0
 purple: #7209B7
 saturated magenta: #B5179E
 dark blue: #3A0CA3
 */
-*{
+* {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
@@ -15,7 +15,7 @@ headder {
   min-width: 100svw;
   height: 100px;
   background-color: salmon;
-
+  padding: 10;
 }
 
 h1 {
@@ -36,17 +36,29 @@ p {
   font-size: 18px;
   color: #7209b7;
 }
+article {
+  height: 80%;
+  width: 23%;
+  margin: 0px 10px;
+  display: inline-block;
+  text-align: center;
+}
 section {
   height: 100px;
-  width: 400px
-  margin: 0px auto;
+  width: 400px;
+}
+#cat-stuff {
+  border: 3px grey outset;
+}
+.cats-do {
+  border-right: 2px solid rgb(3, 18, 3);
 }
 img {
   width: 300px;
 }
-footer{
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+footer {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 button {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
