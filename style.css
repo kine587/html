@@ -1,4 +1,4 @@
-/* headder, h1, p, navbar, main, section, fotter, #cat-stuff, .cats-do,  button img*/
+/* header, h1, p, navbar, main, section, fotter, #cat-stuff, .cats-do,  button img*/
 /*
 light blue: #4CC9F0
 purple: #7209B7
@@ -11,7 +11,7 @@ dark blue: #3A0CA3
   box-sizing: border-box;
   text-align: center;
 }
-headder {
+header {
   min-width: 100svw;
   height: 100px;
   background-color: salmon;
