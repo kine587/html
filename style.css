@@ -1,4 +1,4 @@
-/* header, h1, p, navbar, main, section, fotter, #cat-stuff, .cats-do,  button img*/
+/* header, h1, p, navbar, main, section, fotter, #cat-stuff, .cats-do, h2,div, button img*/
 /*
 light blue: #4CC9F0
 purple: #7209B7
@@ -25,6 +25,9 @@ h1 {
   line-height: 1;
   letter-spacing: 5px;
 }
+h2 {
+  color: #3a0ca3;
+}
 main {
   text-align: center;
   padding-top: 20px;
@@ -44,17 +47,24 @@ article {
   text-align: center;
 }
 section {
-  height: 100px;
-  width: 400px;
+  /* height: 100px; */
+  /* width: 400px; */
+  margin: 0px auto;
 }
 #cat-stuff {
   border: 3px grey outset;
 }
 .cats-do {
-  border-right: 2px solid rgb(3, 18, 3);
+  width: 100%;
+}
+.card {
+  border: 2px solid rgb(3, 18, 3);
+  margin-bottom: 10px;
+  display: inline-block;
+  min-height: 100px;
 }
 img {
-  width: 300px;
+  width: 200px;
 }
 footer {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
