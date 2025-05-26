@@ -38,6 +38,7 @@ main {
 p {
   font-size: 18px;
   color: #7209b7;
+  margin-bottom: 15px;
 }
 article {
   height: 80%;
@@ -68,6 +69,7 @@ section {
 }
 .caring-for-cats {
   margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 img {
