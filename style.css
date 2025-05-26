@@ -1,4 +1,4 @@
-/* header, h1, p, navbar, main, section, fotter, #cat-stuff, .cats-do, h2,div, button img*/
+/* header, h1, p, navbar, main, section, fotter, #cat-stuff, .cats-do, h2, div, #cat-stuff, .caring-for-cats button img*/
 /*
 light blue: #4CC9F0
 purple: #7209B7
@@ -63,6 +63,13 @@ section {
   display: inline-block;
   min-height: 150px;
 }
+#cat-care {
+  border: 3px black dotted;
+}
+.caring-for-cats {
+  margin-top: 15px;
+}
+
 img {
   width: 200px;
 }
